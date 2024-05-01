@@ -1,0 +1,14 @@
+Process 1 has local value: 0.35722
+Process 3 has local value: 0.571081
+Process 4 has local value: 0.928975
+Process 5 has local value: 0.784953
+Process 6 has local value: 0.147724
+Process 2 has local value: 0.212555
+Received values at root process:
+Process 1: 0.35722
+Process 2: 0.212555
+Process 3: 0.571081
+Process 4: 0.928975
+Process 5: 0.784953
+Process 6: 0.147724
+Summed value: 3.00251

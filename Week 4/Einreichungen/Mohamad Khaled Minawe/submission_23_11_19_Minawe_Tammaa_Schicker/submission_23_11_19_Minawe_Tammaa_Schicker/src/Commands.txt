@@ -1,0 +1,2 @@
+mpic++ -o neighbors neighbors.cpp 
+mpiexec -n [processes number!!] neighbors

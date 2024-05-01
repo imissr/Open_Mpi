@@ -1,0 +1,59 @@
+fibonacci number0: 0
+fibonacci number1: 1
+fibonacci number2: 1
+fibonacci number3: 2
+fibonacci number4: 3
+fibonacci number5: 5
+fibonacci number6: 8
+fibonacci number7: 13
+fibonacci number8: 21
+fibonacci number9: 34
+fibonacci number10: 55
+fibonacci number11: 89
+fibonacci number12: 144
+fibonacci number13: 233
+fibonacci number14: 377
+fibonacci number15: 610
+fibonacci number16: 987
+fibonacci number17: 1597
+fibonacci number18: 2584
+fibonacci number19: 4181
+fibonacci number20: 6765
+fibonacci number21: 10946
+fibonacci number22: 17711
+fibonacci number23: 28657
+fibonacci number24: 46368
+fibonacci number25: 75025
+fibonacci number26: 121393
+fibonacci number27: 196418
+fibonacci number28: 317811
+fibonacci number29: 514229
+fibonacci number30: 832040
+fibonacci number31: 1346269
+fibonacci number32: 2178309
+fibonacci number33: 3524578
+fibonacci number34: 5702887
+fibonacci number35: 9227465
+fibonacci number36: 14930352
+fibonacci number37: 24157817
+fibonacci number38: 39088169
+fibonacci number39: 63245986
+fibonacci number40: 102334155
+fibonacci number41: 165580141
+fibonacci number42: 267914296
+fibonacci number43: 433494437
+fibonacci number44: 701408733
+fibonacci number45: 1134903170
+fibonacci number46: 1836311903
+fibonacci number47: 2971215073
+fibonacci number48: 512559680
+fibonacci number49: 3483774753
+fibonacci number50: 3996334433
+fibonacci number51: 3185141890
+fibonacci number52: 2886509027
+
+   Elapsed
+----------
+  00:10:04
+  00:10:05
+  00:10:04

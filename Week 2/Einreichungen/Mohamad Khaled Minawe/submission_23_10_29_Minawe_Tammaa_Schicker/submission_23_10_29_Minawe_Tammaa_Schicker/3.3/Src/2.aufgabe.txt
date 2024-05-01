@@ -1,0 +1,25 @@
+sinfo
+PARTITION   AVAIL  TIMELIMIT  NODES  STATE NODELIST
+s_hadoop       up 8-08:00:00      9   idle node[281-289]
+
+scontrol show nodes node281
+NodeName=node281 Arch=x86_64 CoresPerSocket=18
+   CPUAlloc=0 CPUTot=72 CPULoad=0.65
+   AvailableFeatures=all,cpu6140
+   ActiveFeatures=all,cpu6140
+   Gres=(null)
+   NodeAddr=node281 NodeHostName=node281 Version=18.08
+   OS=Linux 3.10.0-957.1.3.el7.x86_64 #1 SMP Thu Nov 29 14:49:43 UTC 2018
+   RealMemory=190000 AllocMem=0 FreeMem=173311 Sockets=2 Boards=1
+   MemSpecLimit=2048
+   State=IDLE ThreadsPerCore=2 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=s_hadoop
+   BootTime=2023-04-21T10:23:53 SlurmdStartTime=2023-04-21T10:24:16
+   CfgTRES=cpu=72,mem=190000M,billing=72
+   AllocTRES=
+   CapWatts=n/a
+   CurrentWatts=0 LowestJoules=0 ConsumedJoules=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+
+CPUTot=72: Die Gesamtanzahl der CPUs auf diesem Knoten beträgt 72
+und das ist für jeden node in der Partition so.

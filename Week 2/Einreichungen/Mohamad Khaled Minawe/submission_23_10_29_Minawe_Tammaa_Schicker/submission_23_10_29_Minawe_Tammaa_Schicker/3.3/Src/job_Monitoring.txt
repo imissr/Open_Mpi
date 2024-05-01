@@ -1,0 +1,20 @@
+squeue -u ni57qip
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+           1992151  s_hadoop fibonacc  ni57qip  R       3:56      1 node281
+
+sacct
+
+       JobID    JobName  Partition    Account  AllocCPUS      State ExitCode
+------------ ---------- ---------- ---------- ---------- ---------- --------
+
+1992151       fibonacci   s_hadoop     hadoop          2    RUNNING      0:0
+1992151.ext+     extern                hadoop          2    RUNNING      0:0
+
+sacct
+
+       JobID    JobName  Partition    Account  AllocCPUS      State ExitCode
+------------ ---------- ---------- ---------- ---------- ---------- --------
+
+1992151       fibonacci   s_hadoop     hadoop          2    TIMEOUT      0:0
+1992151.bat+      batch                hadoop          2  CANCELLED     0:15
+1992151.ext+     extern                hadoop          2  COMPLETED      0:0

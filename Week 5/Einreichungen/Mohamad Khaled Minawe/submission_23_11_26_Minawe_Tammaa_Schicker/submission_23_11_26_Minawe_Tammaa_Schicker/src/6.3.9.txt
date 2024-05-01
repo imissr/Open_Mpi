@@ -1,0 +1,29 @@
+int MPI_Sendrecv(const void *sendbuf, int sendcount, MPI_Datatype sendtype,
+                 int dest, int sendtag, void *recvbuf, int recvcount,
+                 MPI_Datatype recvtype, int source, int recvtag,
+                 MPI_Comm comm, MPI_Status *status);
+
+
+Description:
+
+MPI_Sendrecv is a blocking MPI function that combines the sending and receiving of messages in a single call. It allows a process to send a message to one destination and receive a message from another source simultaneously.
+Parameters:
+
+    sendbuf: Starting address of send buffer.
+    sendcount: Number of elements to send.
+    sendtype: Data type of elements in send buffer.
+    dest: Rank of destination process for sending.
+    sendtag: Message tag for send operation.
+    recvbuf: Starting address of receive buffer.
+    recvcount: Number of elements to receive.
+    recvtype: Data type of elements in receive buffer.
+    source: Rank of source process for receiving.
+    recvtag: Message tag for receive operation.
+    comm: Communicator.
+    status: Status object.
+
+Usage:
+
+MPI_Sendrecv(send_buffer, send_count, MPI_INT, dest_rank, send_tag,
+             recv_buffer, recv_count, MPI_INT, source_rank, recv_tag,
+             MPI_COMM_WORLD, &status);
